@@ -1,0 +1,12 @@
+info:
+  app:
+    name: Code challenge
+    
+server:
+    port: 8085
+                    
+spring:
+  application:
+    name: code_challenge
+  profiles:
+    include: test

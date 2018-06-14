@@ -1,0 +1,72 @@
+unit-test:
+  shipment:
+    reference: ABCD123456
+    parcels:
+      - 
+        weight: 1
+        width: 10
+        height: 10
+        lenght: 10
+      - 
+        weight: 2
+        width: 20
+        height: 20
+        lenght: 20
+        
+  tracking1:
+    status: WAITING_IN_HUB
+    parcels: 2
+    weight: null
+    reference: ABCD123456
+    
+  tracking2:
+    status: WAITING_IN_HUB
+    parcels: 2
+    weight: 2
+    reference: ABCD123456
+    
+  tracking3:
+    status: WAITING_IN_HUB
+    parcels: 1
+    weight: 15
+    reference: ABCD123456
+    
+  tracking4:
+    status: WAITING_IN_HUB
+    parcels: 2
+    weight: 30
+    reference: ABCD123456
+    
+  tracking5:
+    status: DELIVERED
+    parcels: 2
+    weight: 2
+    reference: ABCD123456
+    
+  tracking6:
+    status: DELIVERED
+    parcels: 2
+    weight: 30
+    reference: ABCD123456
+  
+  tracking7:
+    status: DELIVERED
+    parcels: 3
+    weight: 3
+    reference: EFGH123456
+    
+  tracking8:
+    status: DELIVERED
+    parcels: null
+    weight: 30
+    reference: ABCD123456
+    
+  tracking9:
+    status: DELIVERED
+    parcels: 3
+    weight: 30
+    reference: ABCD123456
+    
+  result:
+    reference: ABCD123456
+    status: CONCILLIATION_REQUEST
