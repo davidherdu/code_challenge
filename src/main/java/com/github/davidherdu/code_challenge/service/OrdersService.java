@@ -21,7 +21,7 @@ public class OrdersService {
 	private Shipment shipment;
 
 	/**
-	 * The shipment to application is set. If any field is null a PacklinkException is throwed y it is catched in PacklinkExceptionChecker
+	 * The shipment to application is set. If any field is null a CodeChallengeException is throwed y it is catched in CodeChallengeExceptionChecker
 	 * @param shipment
 	 */
 	public void setShipment(Shipment shipment) {

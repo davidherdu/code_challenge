@@ -36,12 +36,12 @@ public class SwaggerConfig {
                 .code(500)
                 .message("Internal error").build()))
             .produces(ImmutableSet.of("application/json"))
-            .tags(new Tag("Packlink", "Code challenge davidherdu"));
+            .tags(new Tag("CodeChallenge", "Code challenge davidherdu"));
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-            .title("Code challenge davidherdu - Packlink")
+            .title("Code challenge davidherdu")
             .version("1.0")
             .build();
     }
