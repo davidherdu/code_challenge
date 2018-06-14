@@ -8,7 +8,7 @@ Create an application listening to port 8085, and:
 
 ### 1
 The application should be able to receive a
-POST `http://localhost:8055/api/register` with payload (store it as a `shipment`):
+POST `http://localhost:8085/api/register` with payload (store it as a `shipment`):
 
 ```javascript
 {
@@ -34,7 +34,7 @@ POST `http://localhost:8055/api/register` with payload (store it as a `shipment`
 ### 2
 
 The application should be able to receive a
-PUT `http://localhost:8055/api/push` with the following payload (`tracking`):
+PUT `http://localhost:8085/api/push` with the following payload (`tracking`):
 
 #### A
 
